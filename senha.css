@@ -50,7 +50,7 @@ p {
     display: flex;
     margin: 40px;
     flex-direction: column;
-
+    
 }
 
 .buscar input {
@@ -64,4 +64,25 @@ p {
     border: 1px solid black;
 }
 
+.senhazinha {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
 
+}
+
+#botaoMostrarSenha {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: white;
+    
+}
+
+.legenda{
+    background-color: white;
+}

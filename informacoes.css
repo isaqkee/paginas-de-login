@@ -64,4 +64,31 @@ p {
     border: 1px solid black;
 }
 
+#caixas{
+    width: 100px;
+    margin: 50px;
+}
 
+#mês{
+    width: 100px;
+    margin: 50px;
+}
+
+#ano{
+    width: 100px;
+    margin: 55px;
+}
+
+.tres{
+    display: flex;
+    width: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    
+}
+
+#senha{
+    height: 65px;
+}
