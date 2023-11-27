@@ -92,3 +92,46 @@ p {
 #senha{
     height: 65px;
 }
+
+.botoes {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+    
+}
+
+.botao1 {
+    width: 50%;
+    justify-content: left;
+    background-color: white;
+   
+}
+
+.botao2 {
+    width: 50%;
+    justify-content: right;
+    background-color: white;
+    
+
+}
+
+.botao1 button {
+    background-color: #F69100;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.botao2 button {
+    background-color: #F69100;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+}
